@@ -18,7 +18,7 @@ If you want to just build the images run `make docker`. Docker compose file can 
 
 ### Building from source
 
-Follow the build processes specified in a docker file at `docker/BuildBase.Dockerfile`.
+Follow the build processes specified in a docker file at `docker/Ubuntu.Dockerfile`.
 The build system is `cmake` the C++ standard is 20. The following dependencies are needed for everything:
 
 + **fmt**
