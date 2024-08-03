@@ -1,4 +1,4 @@
-FROM ubuntu:22.04
+FROM --platform=linux/amd64 ubuntu:22.04
 
 # Install dependecies
 RUN apt-get -y update && apt-get upgrade -y
